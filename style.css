@@ -94,3 +94,7 @@ section > ul > li > img{
 width: 300px;
 
 }
+footer{
+    background-color: var(--cor4);
+    color: white;
+}
