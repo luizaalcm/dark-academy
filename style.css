@@ -83,13 +83,14 @@ section{
 background-color: rgba(255, 255, 255, 0.342);
 }
 section> ul{
-display: flex;
-columns: 2;
+    list-style-type: '\2714\00A0\00A0';
+    list-style-position: inside;
+    columns: 3;
 }
 section > ul > li{
     list-style: none;
 }
-section ul > li > img{
+section > ul > li > img{
 width: 300px;
 
 }
