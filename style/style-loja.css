@@ -48,13 +48,35 @@ nav > a:hover{
     border-radius: 3px;
     transition: 0.5s;
 }
+div.sidebar{
+    position: fixed;
+    width: 170px;
+    height: 100%;
+    
+    left: 0;
+    background-color: var(--cor4);
+}
+.sidebar > a{
+    font-family: Arial, Helvetica, sans-serif;
+    color: var(--cor0);
+    display: block;
+    width: 100%;
+    line-height: 60px;
+    text-decoration: none;
+    padding-left: 20px;
+    box-sizing: border-box;
+}
 
+div.slider{
+    
+}
 div.slider > ul {
     display: block;
     height: 439.5px;
     width: 900px;
     margin: auto;
-    margin-top: 50px;
+    padding-top: 50px;
+    padding-bottom: 50px;
     position: relative;
 }
 
@@ -102,4 +124,46 @@ div.slider > ul > li input:checked ~ img {
     opacity: 1;
     visibility: visible;
     z-index: 10;
+}
+
+main{
+background-color: white;
+padding-bottom: 0%;
+width: 100%;
+
+
+}
+main > svg{
+    margin-bottom: 0%;
+    width: 100%;
+    color: var(--cor5);
+}
+main > h2{
+    padding: 20px;
+    position: relative;
+    text-align: center;
+    padding-top: 40px;
+    font-size: 1.8em;
+}
+main > ul{
+display: flex;
+padding-top: 50px;
+list-style: none;
+position: relative;
+left: 15%;
+}
+main > ul > li{
+
+}
+main > ul > li > a > img{
+width: 300px;
+padding: 10px;
+}
+
+
+footer {
+    background-color: var(--cor5);
+    color: var(--cor0);
+   
+   
 }
